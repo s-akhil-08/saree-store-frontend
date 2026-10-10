@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://backend-application-q9i2.onrender.com/api/:path*"
+    },
+    {
+      "source": "/media/:path*",
+      "destination": "https://backend-application-q9i2.onrender.com/media/:path*"
+    },
+    {
+      "source": "/((?!robots\\.txt|sitemap\\.xml|favicon\\.svg|assets/|.*\\..*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
