@@ -2,7 +2,7 @@ export const PRIMARY_API_URL = (
   import.meta.env.VITE_PRIMARY_API_URL || 
   import.meta.env.PRIMARY_API_URL || 
   import.meta.env.VITE_API_BASE_URL || 
-  'https://ecommerce-django-rest-backend.onrender.com'
+  'https://saree-store-backend-ex17.onrender.com'
 ).replace(/\/$/, '');
 
 export const SECONDARY_API_URL = (
